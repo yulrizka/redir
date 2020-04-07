@@ -35,8 +35,7 @@ curl -v localhost:5545/blog
 
 ## List
 ```
-$ curl -v -X POST "localhost:5545/add?source=http://localhost:5545/&target=https://labs.yulrizka.com"
- curl -v -X POST localhost:5545/list
+$ curl -v -X POST localhost:5545/list
 
 ...
 < HTTP/1.1 200 OK
